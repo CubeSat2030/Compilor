@@ -1,0 +1,22 @@
+# KabotSatKernel
+# SPDX-License-Identifier: GPL-2.0-only
+*.[ch] filter=lfs diff=lfs merge=lfs -text
+*.dts filter=lfs diff=lfs merge=lfs -text
+*.dts[io] diff=dts
+*.rs filter=lfs diff=lfs merge=lfs -text
+# KabotSat_ImageGen
+# Line endings
+* text=auto
+*.py filter=lfs diff=lfs merge=lfs -text
+*.yaml filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.adoc filter=lfs diff=lfs merge=lfs -text
+*.cfg.in filter=lfs diff=lfs merge=lfs -text
+# GitHub Linguist overrides
+docs/** linguist-documentation=true
+docs/**/*.html linguist-generated=true
+layer/base/schemas/**/*.html linguist-generated=true
+templates/docs/html/*.html linguist-generated=true
+*.sh filter=lfs diff=lfs merge=lfs -text
+*.dtso filter=lfs diff=lfs merge=lfs -text
+*.dtsi filter=lfs diff=lfs merge=lfs -text
