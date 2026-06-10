@@ -13,5 +13,5 @@
         ├── .gitkeep
     ├── .gitattributes
     ├── .gitignore
-    └── Structure.md
+    └── Structure.md    
 ```
