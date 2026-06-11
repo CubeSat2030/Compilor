@@ -1,8 +1,8 @@
 ```
-└── 📁Compilor
-    └── 📁Core
-        └── 📁OS_Compilor
-            └── 📁Sub_Scripts
+└── Compilor
+    └── Core
+        └── OS_Compilor
+            └── Sub_Scripts
                 ├── .gitkeep
                 ├── 0_CreateBootPartitionStructure.py
                 ├── 1_CompileKernelImage.py
