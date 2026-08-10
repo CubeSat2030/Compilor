@@ -1,17 +1,43 @@
 ```
 └── Compilor
     └── Core
-        └── OS_Compilor
-            └── Sub_Scripts
+        └── app
+            └── components
+                └── KernelWatermarkGen
+                    └── Core
+                        └── KernalWaterMarkGen
+                            └── src
+                                └── Logos
+                                    └── png
+                                        ├── .gitkeep
+                                        ├── logo-removebg-preview.png
+                                        ├── logo.png
+                                    └── ppm
+                                        ├── .gitkeep
+                                    └── svg
+                                        ├── logo-removebg-preview (1).svg
+                                        ├── logo-removebg-preview.svg
+                                    ├── .gitkeep
+                                ├── .gitkeep
+                                ├── KernelWatermarkGen.py
+                            ├── .gitkeep
+                        ├── .gitkeep
+                └── OS_Compilor
+                    └── Sub_Scripts
+                        ├── .gitkeep
+                        ├── 0_CreateBootPartitionStructure.py
+                        ├── 1_CompileKernelImage.py
+                        ├── 2_CreateDeviceTreeBlobs.py
+                        ├── 3_RetrieveProprietaryBlobs.py
+                        ├── build_config.json
+                    ├── .gitkeep
+                    ├── OS_Compilor.py
                 ├── .gitkeep
-                ├── 0_CreateBootPartitionStructure.py
-                ├── 1_CompileKernelImage.py
-                ├── 2_CreateDeviceTreeBlobs.py
-                ├── 3_RetrieveProprietaryBlobs.py
             ├── .gitkeep
-            ├── OS_Compilor.py
+            ├── main.py
         ├── .gitkeep
     ├── .gitattributes
     ├── .gitignore
-    └── Structure.md    
+    ├── build_config.json
+    └── Structure.md
 ```
